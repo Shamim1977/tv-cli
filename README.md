@@ -24,8 +24,9 @@ Install dependencies [(See below)](#Dependencies)
 
 ```sh
 git clone "https://github.com/Spaxly/tv-cli.git" && cd ./tv-cli
-sudo cp ./tv-cli /usr/local/bin
-cd .. && rm -rf "./tv-cli"
+chmod +x ./tv-cli.py
+sudo cp ./tv-cli.py /usr/local/bin
+cd .. && rm -rf "./tv-cli.py"
 ```
 *Also note that mpv installed through flatpak is not compatible*
 
@@ -37,7 +38,7 @@ Install [HomeBrew](https://docs.brew.sh/Installation) if not installed.
 
 ```sh
 git clone "https://github.com/Spaxly/tv-cli.git" && cd ./tv-cli
-cp ./tv-cli "$(brew --prefix)"/bin 
+cp ./tv-cli.py "$(brew --prefix)"/bin 
 cd .. && rm -rf ./tv-cli
 ```
 
@@ -50,11 +51,11 @@ brew install ffmpeg mpv python git
 
 * Linux:  
 ```sh
-sudo rm "/usr/local/bin/tv-cli"
+sudo rm "/usr/local/bin/tv-cli.py"
 ```
 * Mac:  
 ```sh
-rm "$(brew --prefix)/bin/tv-cli"
+rm "$(brew --prefix)/bin/tv-cli.py"
 ```
 
 ## Dependencies
