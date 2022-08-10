@@ -15,7 +15,7 @@ A cli to browse and watch live TV. This tool scrapes the site <a href="https://u
 - [Uninstall](#Uninstall)
 - [Issues](#Issues)
 - [Dependencies](#Dependencies)
-- [Disclaimer](./DISCLAIMER)
+- [Disclaimer](./DISCLAIMER.md)
 
 ## Install
 
