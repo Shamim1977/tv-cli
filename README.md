@@ -13,6 +13,7 @@ A cli to browse and watch live TV. This tool scrapes the site <a href="https://u
   - [Linux](#Linux)
   - [MacOS](#MacOS)
 - [Uninstall](#Uninstall)
+- [Issues](#Issues)
 - [Dependencies](#Dependencies)
 - [Disclaimer](./disclaimer.md)
 
@@ -57,6 +58,8 @@ sudo rm "/usr/local/bin/tv-cli.py"
 ```sh
 rm "$(brew --prefix)/bin/tv-cli.py"
 ```
+## Issues
+- Some channels like ESPN won't work if you are outside the U.S. Only way to fix this temporarily is to use a VPN. 
 
 ## Dependencies
 
