@@ -6,6 +6,9 @@ tv-cli
 <h3 align="center">
 A cli to browse and watch live TV. This tool scrapes the site <a href="https://ustvgo.tv">ustvgo.</a>
 </h3>
+<h3 align="center">
+This will only work in the US or with a US IP!
+</h3>
 	
 ## Table of Contents
 
